@@ -1,0 +1,60 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# next.js build output
+/.next/
+/out/
+next-env.d.ts
+
+# production build
+/build
+
+# environment variables (contain API keys / local paths)
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# uploaded audio and generated files
+/uploads/*
+!/uploads/.gitkeep
+/outputs/
+
+# python virtual environment (from the old local Whisper setup)
+/venv/
+.venv/
+__pycache__/
+*.pyc
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# typescript
+*.tsbuildinfo
+
+# testing
+/coverage
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+
+
+AGENTS.md
+CLAUDE.md
